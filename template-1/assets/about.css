@@ -1,0 +1,164 @@
+body{ 
+    overflow-x:hidden;
+    font-family: 'Lora', serif;
+}
+
+    /*NAVBAR*/
+.logo{
+    width: 25%;
+}
+.info-bg {
+    width: 100%;
+    background-color: #EAECEE;
+}
+.head{
+    color: #000;
+    font-family: 'Lora';
+    font-size: 50px;
+}
+@media (min-width:280px) and (max-width:653px) {
+    .head{
+        font-size: 40px;
+    }
+    .menu-btn{
+        margin-left: 75%;
+        margin-top: -30%;
+    }
+}
+.menu-bar{
+    margin-left: 50% !important;
+}
+@media (min-width:320px) and (max-width:812px) {
+    .head{
+        margin-left: 10%;
+    }
+    .menu-btn{
+        margin-left: 80%;
+        margin-top: -25%;
+    }
+    .menu-bar {
+        margin-left: 35%!important;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .head{
+        margin-left: 25%;
+    }
+    .menu-btn{
+        margin-left: 85%;
+        margin-top: -16%;
+    }
+}
+@media (min-width:1024px) and (max-width:1366px) {
+    .head{
+        margin-left: -10%;
+    }
+    .menu-bar {
+        margin-left: 30%!important;
+    }
+}
+.menu-bar li{
+    list-style: none;
+    display: inline-block;
+    padding:5%;
+}
+.menu-bar li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.menu-bar li:hover{
+    background-color: darkgray; 
+}
+    /*ABOUT BODY*/
+.about-head{
+    text-align: center;
+    padding: 5% 0;
+    font-family: 'Lora';
+    color: #fff;
+    font-size: 60px;
+}
+.section-one{
+    background-image: url(images/about.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.quote{
+    text-align: center;
+    padding: 5% 0;
+    font-size: 40px;
+    color: #fff;
+}
+.q-text{
+    text-align: center;
+    font-size: 30px;
+    padding:0 10%;
+    color: #fff;
+}
+.section-two{
+    padding: 5%;
+    justify-content: center;
+}
+.two-text-one{
+    text-align: center;
+    padding-bottom: 5%;
+    font-family: 'Lora';
+    font-size: 50px;
+}
+.about-card{
+    padding-left: 10% !important; 
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 70%;
+}
+@media (min-width:320px) and (max-width:812px) {
+    .card{
+        margin: 2% 0;
+    }
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-contain {
+  padding: 2px 16px;
+}
+.section-three{
+    padding: 5%;
+    font-size: 20px;
+}
+.three-text-one{
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 50px;
+}
+.about-text-1{
+    padding: 10% 5% 0 5%;
+}
+
+    /*FOOTER*/
+.footer{
+    background-color: #EAECEE;
+    padding: 5% 0;
+    text-align: center;
+}
+.ql{
+     margin-top:5%;
+}
+.ql a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px; 
+}
+.mail{
+    text-decoration: none;
+    color: #000;
+}
+.icon-img{
+    width: 20%;
+    border-radius: 50%;
+    padding: 0 5%;
+}

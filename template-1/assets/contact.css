@@ -1,0 +1,144 @@
+body{ 
+    overflow-x:hidden;
+    font-family: 'Lora', serif;
+}
+
+    /*NAVBAR*/
+.logo{
+    width: 25%;
+}
+.info-bg {
+    width: 100%;
+    background-color: #EAECEE;
+}
+.head{
+    color: #000;
+    font-family: 'Lora';
+    font-size: 50px;
+}
+.menu-bar{
+    margin-left: 50% !important;
+}
+.menu-bar li{
+    list-style: none;
+    display: inline-block;
+    padding:5%;
+}
+.menu-bar li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+.menu-bar li:hover{
+    background-color: darkgray;
+    padding: 
+}
+@media (min-width:280px) and (max-width:653px) {
+    .head{
+        font-size: 40px;
+    }
+    .menu-btn{
+        margin-left: 75%;
+        margin-top: -30%;
+    }
+}
+@media (min-width:320px) and (max-width:812px) {
+    .head{
+        margin-left: 10%;
+    }
+    .menu-btn{
+        margin-left: 80%;
+        margin-top: -25%;
+    }
+    .menu-bar {
+        margin-left: 35%!important;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .head{
+        margin-left: 25%;
+    }
+    .menu-btn{
+        margin-left: 85%;
+        margin-top: -16%;
+    }
+}
+@media (min-width:1024px) and (max-width:1366px) {
+    .head{
+        margin-left: -10%;
+    }
+    .menu-bar {
+        margin-left: 30%!important;
+    }
+}
+    /*CONTACT BODY*/
+.contact{
+    text-align: center;
+    padding: 5% 0;
+    background-image: url(images/contact.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Lora';
+}
+.contact-body{
+    padding: 5% 0;
+}
+.input{
+    width: 45%;
+    margin-top: 5%;
+}
+.input-msg{
+    width: 45%;
+    margin-top: 5%;
+    height: 7rem;
+}
+.input-btn{
+    margin: 2%;
+    width: 25%;
+}
+.input-btn :hover{
+    background-color: darkgray;
+}
+.cont-info{
+    padding: 10% 0;
+}
+.cont-info a{
+    text-decoration: none;
+    color: #000;
+}
+.cont-icon{
+    margin-top: 5%;
+}
+.ci1{
+    width: 10%;
+}
+.ci2{
+    width: 13%;
+    margin-left: -10%;
+}
+.ci3{
+    width: 6%;
+}
+    /*FOOTER*/
+.footer{
+    background-color: #EAECEE;
+    padding: 5% 0;
+    text-align: center;
+}
+.ql{
+     margin-top:5%;
+}
+.ql a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px; 
+}
+.mail{
+    text-decoration: none;
+    color: #000;
+}
+.icon-img{
+    width: 20%;
+    border-radius: 50%;
+    padding: 0 5%;
+}
